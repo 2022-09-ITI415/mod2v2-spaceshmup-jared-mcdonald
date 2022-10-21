@@ -118,6 +118,8 @@ public class Weapon : MonoBehaviour {
         switch (type)
         {
             case WeaponType.blaster:
+            case WeaponType.laser:
+            
                 p = MakeProjectile();
                 p.rigid.velocity = vel;
                 break;
